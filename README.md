@@ -21,5 +21,7 @@ Instructions pour contribuer au projet :
 4. Pousser vers la branche : `git push origin nouvelle-fonctionnalite`
 5. Créer une Pull Request.
 
-## Contact 
-Pour toute question ou retour, veuillez contacter [Heloiisee].
+## Suivez-moi
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hachi_code/)
+
