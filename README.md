@@ -1,6 +1,7 @@
 # BlueReading - Suivi de Lecture de Livres 
 
-## Description Application web pour suivre vos lectures, marquer votre progression et laisser des commentaires sur les livres lus.
+## Description 
+Application web pour suivre vos lectures, marquer votre progression et laisser des commentaires sur les livres lus.
 
 ## Installation 
 1. Clonez le dépôt : `git clone https://github.com/ton-username/BlueReading.git`
