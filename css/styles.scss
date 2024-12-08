@@ -1,0 +1,150 @@
+// Polices
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Coming+Soon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+// Variables
+$font-text: 'Poppins', sans-serif;
+$font-title: 'Playfair Display', serif;
+$font-subtitle: 'Coming Soon', cursive;
+$font-logo_secondary: 'Lora', serif;
+$font-logo: 'Abril Fatface', cursive;
+
+$color-primary: #262827;
+$color-secondary: #810e11;
+$color-tertiary: #fefcfc;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-text;
+    
+}
+body{
+    background-color: $color-tertiary;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    nav{
+        .navbar-brand{
+            .logo-blue{
+                color: $color-secondary;
+                font-family: $font-logo_secondary;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+            .logo-reading{
+                color: $color-primary;
+                font-family: $font-logo;
+                font-size: 2rem;
+                font-weight: 400;
+            }
+        }
+        .navbar-nav{
+            .nav-link{
+                color: $color-primary;
+                font-weight: 500;
+                font-size: 1.2rem;
+                &:hover{
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+}
+
+section.header-section{
+    .header-title{
+        font-family: $font-title;
+        font-size: 4rem;
+        padding: 6rem 0 0 0;
+        margin: 0;
+        .logo-blue{
+            font-family: $font-logo_secondary;
+            color: $color-primary;
+        }
+        .logo-reading{
+            font-family: $font-logo;
+            color: $color-secondary;
+        }
+    }
+    .header-subtitle{
+        font-family: $font-subtitle;
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding: 0;
+        margin: 0;
+
+    }
+    .header-text{
+        font-weight: 200;
+        font-size: 1.2rem;
+        padding: 6rem 0;
+        margin: 0;
+        color: $color-primary;
+    }
+    .header-button{
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+
+        .btn{
+            padding: 1rem 2rem;
+            border-radius: 2rem;
+            font-weight: 500;
+            font-size: 1.2rem;
+            &:hover{
+                color: $color-tertiary;
+                background-color: $color-primary;
+                transition: all 0.3s ease;
+                border: 1px solid $color-primary;
+                cursor: pointer;
+                transform: scale(1.05);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                
+            }
+        }
+        .btn-custom{
+            background-color: $color-secondary;
+            color: $color-tertiary;
+        }
+        .btn-custom_secondary{
+            background-color: $color-tertiary;
+            color: $color-primary;
+        }
+    }
+}
+footer{
+    padding: 1rem 0;
+    background-color: $color-secondary;
+    color: $color-tertiary;
+    margin-top: auto;
+    .reseaux-sociaux{
+        a{
+            img{
+                width: 2rem;
+            }
+        }
+    }
+    .footer-text{
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    .lien-utiles{
+        a{
+            color: $color-tertiary;
+            text-decoration: none;
+            font-size: 1.2rem;
+            &:hover{
+                color: $color-primary;
+            }
+        }
+    }
+}

@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Coming+Soon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fefcfc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header nav .navbar-brand .logo-blue {
+  color: #810e11;
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+header nav .navbar-brand .logo-reading {
+  color: #262827;
+  font-family: "Abril Fatface", cursive;
+  font-size: 2rem;
+  font-weight: 400;
+}
+header nav .navbar-nav .nav-link {
+  color: #262827;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+header nav .navbar-nav .nav-link:hover {
+  color: #810e11;
+}
+
+section.header-section .header-title {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  padding: 6rem 0 0 0;
+  margin: 0;
+}
+section.header-section .header-title .logo-blue {
+  font-family: "Lora", serif;
+  color: #262827;
+}
+section.header-section .header-title .logo-reading {
+  font-family: "Abril Fatface", cursive;
+  color: #810e11;
+}
+section.header-section .header-subtitle {
+  font-family: "Coming Soon", cursive;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+section.header-section .header-text {
+  font-weight: 200;
+  font-size: 1.2rem;
+  padding: 6rem 0;
+  margin: 0;
+  color: #262827;
+}
+section.header-section .header-button {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+section.header-section .header-button .btn {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+section.header-section .header-button .btn:hover {
+  color: #fefcfc;
+  background-color: #262827;
+  transition: all 0.3s ease;
+  border: 1px solid #262827;
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+section.header-section .header-button .btn-custom {
+  background-color: #810e11;
+  color: #fefcfc;
+}
+section.header-section .header-button .btn-custom_secondary {
+  background-color: #fefcfc;
+  color: #262827;
+}
+
+footer {
+  padding: 1rem 0;
+  background-color: #810e11;
+  color: #fefcfc;
+  margin-top: auto;
+}
+footer .reseaux-sociaux a img {
+  width: 2rem;
+}
+footer .footer-text {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+footer .lien-utiles a {
+  color: #fefcfc;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+footer .lien-utiles a:hover {
+  color: #262827;
+}/*# sourceMappingURL=styles.css.map */
