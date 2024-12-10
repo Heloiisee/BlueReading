@@ -304,4 +304,47 @@ footer .lien-utiles a:hover {
   color: #262827;
   margin: 0;
   padding: 0;
+}
+
+#mentions-legales {
+  padding: 4rem 0;
+  background-color: #fefcfc;
+}
+#mentions-legales header {
+  background-color: #810e11;
+  color: #fefcfc;
+}
+#mentions-legales header nav .navbar-brand .logo-blue {
+  color: #810e11;
+  font-family: "Lora", serif;
+}
+#mentions-legales header nav .navbar-brand .logo-reading {
+  color: #262827;
+  font-family: "Abril Fatface", cursive;
+}
+#mentions-legales h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #262827;
+}
+#mentions-legales h1 span {
+  color: #810e11;
+  font-family: "Lora", serif;
+}
+#mentions-legales h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #262827;
+}
+#mentions-legales h2 span {
+  color: #810e11;
+  font-family: "Lora", serif;
+}
+#mentions-legales p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #262827;
 }/*# sourceMappingURL=styles.css.map */

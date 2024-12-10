@@ -356,3 +356,54 @@ footer{
         }   
     }
 }
+
+#mentions-legales{
+    padding: 4rem 0;
+    background-color: $color-tertiary;
+    header{
+        background-color: $color-secondary;
+        color: $color-tertiary;
+        nav{
+            .navbar-brand{
+                .logo-blue{
+                    color: $color-secondary;
+                    font-family: $font-logo_secondary;
+                }
+                .logo-reading{
+                    color: $color-primary;
+                    font-family: $font-logo;
+                }
+            }
+        }
+
+    }
+    h1{
+        font-family: $font-title;
+        font-size: 3rem;
+        font-weight: 700;
+        color: $color-primary;
+        span{
+            color: $color-secondary;
+            font-family: $font-logo_secondary;
+        }
+    }
+    h2{
+        font-family: $font-title;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $color-primary;
+        span{
+            color: $color-secondary;
+            font-family: $font-logo_secondary;
+        }
+    }
+    p{
+        font-family: $font-text;
+        font-size: 1rem;
+        font-weight: 400;
+        color: $color-primary;
+    }
+
+}
+
+
