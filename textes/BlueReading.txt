@@ -1,0 +1,29 @@
+BlueReading est un projet de bibliothèque en ligne qui permet aux utilisateurs de consulter, ajouter et gérer leurs livres.
+
+## Fonctionnalités potentielles
+- Ajout de livres
+- Gestion des livres
+- Recherche de livres
+- Filtrage des livres
+- Tri des livres
+- Suppression de livres
+- Modification de livres
+- Ajout d'un API pour les livres
+- Telechement et previsualisation des couvertures des livres
+- Interface Utilisateur Améliorée
+- Gestion des utilisateurs
+- Catégorisation et Organisation
+- Évaluations et Commentaires
+- Système de recommandation de livres
+
+## Technologies utilisées
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- PHP (pas encore)
+- MySQL (pas encore)
+
+
+    
+
