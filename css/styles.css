@@ -347,4 +347,41 @@ footer .lien-utiles a:hover {
   font-size: 1rem;
   font-weight: 400;
   color: #262827;
+}
+
+#fileUploadForm {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+#fileUploadForm.d-none {
+  display: none;
+}
+#fileUploadForm:not(.d-none) {
+  opacity: 1;
+  height: auto;
+  margin-top: 2rem;
+}
+#fileUploadForm .form-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+#fileUploadForm .form-check-input {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#fileUploadForm .form-check-label {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #262827;
+}
+#fileUploadForm .btn {
+  font-weight: 500;
+}
+#fileUploadForm .btn-custom {
+  background-color: #810e11;
+  color: #fefcfc;
 }/*# sourceMappingURL=styles.css.map */

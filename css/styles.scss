@@ -406,4 +406,43 @@ footer{
 
 }
 
+#fileUploadForm{
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    
+    &.d-none {
+        display: none;
+    }
+    
+    &:not(.d-none) {
+        opacity: 1;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .form-check{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .form-check-input{
+        width: 1.5rem;
+        height: 1.5rem;
+    }  
+    .form-check-label{
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: $color-primary;
+    }
+    .btn{
+        font-weight: 500;
+    }
+    .btn-custom{
+        background-color: $color-secondary;
+        color: $color-tertiary;
+    }
+}
 
