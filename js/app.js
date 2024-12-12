@@ -38,3 +38,21 @@ function handleReturnButton(event){
         window.location.href = '../index.html';
     }
 }
+
+function showFileUploadForm(){
+    const form = document.getElementById('fileUploadForm');
+    if (form) {
+        form.classList.remove('d-none');
+    } else {
+        console.error("L'élément 'fileUploadForm' n'a pas été trouvé");
+    }
+}
+
+function hideFileUploadForm(){
+    const form = document.getElementById('fileUploadForm');
+    if (form) {
+        form.classList.add('d-none');
+    } else {
+        console.error("L'élément 'fileUploadForm' n'a pas été trouvé");
+    }
+}
