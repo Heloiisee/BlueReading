@@ -29,3 +29,12 @@ function showLoadingPage(event){
 
     
 }
+
+function handleReturnButton(event){
+    event.preventDefault();
+    if(document.referrer){
+        window.location.href = document.referrer;
+    }else{
+        window.location.href = '../index.html';
+    }
+}
